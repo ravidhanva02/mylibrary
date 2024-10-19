@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar-main{
+    display: flex;
+    width: 100%;
+    
+}
+nav{
+    background-color: #660d33;
+    width: 100%;
+    height: 60px;
+    padding: 0 20px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+    
+}
+.library{
+    color:#b1ff00;
+}
+.logo{
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    font-family:cursive;
+    cursor: pointer;
+}
+.card{
+    width: auto;
+    
+}
+.card i{
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+
+}
+
+      /* cards start */
+
+.zero{
+    color: red;
+    font-weight: bold;
+    font-size: 18px;
+    color: red;
+
+    
+}
+.addtocard{
+    background-color: red;
+}
+.nav-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.nav-like{
+    margin-right: 30px;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.3s ease; 
+}
+.card i:hover{
+    transform: scale(1.2);
+    font-weight: bold;
+    
+}
+.nav-like:hover{
+    transform: scale(1.2);
+    font-weight: bold;
+}
